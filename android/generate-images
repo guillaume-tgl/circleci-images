@@ -22,7 +22,7 @@ for API in 23 24 25 26 27 28; do
 
   tag=api-${API}
   node_variant_tag=api-${API}-node
-  ndk_variant_tag=api-${API}-ndk
+  ndk_variant_tag=api-${API}-ndk-r18b
 
   generate_dockerfile ${API} ${tag}
 
